@@ -1,0 +1,168 @@
+body {
+    background-image: url('/images/stars.jpg');
+    height: 100vh;
+    background-color: wheat;
+    background-repeat: repeat;  
+    color: white;
+  }
+
+
+header {
+    background: black;
+    font-size: x-large;
+    text-align: center;
+    position: sticky;
+}
+
+#Welkom-bij-Aldebaran {
+  font-family: Century Gothic;
+  padding-top: 50px;
+  
+}
+
+#woordkleur {
+  color: #973961;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #973961;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.content {
+  padding: 16px;
+}
+
+*  {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  }
+
+li {
+  display: inline;
+}
+
+
+footer {
+  background-color: #973961;
+}
+  
+.inhoudsopgave {
+  justify-content: flex-end; 
+  list-style: none;
+  display: inline;
+  float: right; 
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+#Section1 {
+  padding-right: 10px;
+}
+
+#Section2 {
+  padding-right: 10px;
+}
+
+#Section3 {
+  padding-right: 10px;
+}
+
+#Lorum-Ipsum {
+  color: white
+}
+
+a:visited, a:hover, a:focus {
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+
+#introductietext {
+font-family: Constantia;
+padding-top: 100px;
+color: #973961;
+}
+
+p::first-letter {
+  color: white;
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px #973961;
+  font-size: 250%;
+  padding: 6px 3px;
+  margin-right: 6px;
+}
+
+h1 {
+  color: white;
+   }
+h3 {
+  color: white;
+}
+
+.maincontent {
+  padding-bottom: 200px;  
+  padding-top: 50px;
+  color: #973961;
+
+}
+
+.Projectcontent {
+  padding-bottom: 100px;
+  padding-top: 200px;
+}
+
+.Contactcontent {
+  padding-bottom: 200px;
+  padding-top: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#plaatjemetlogos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Vaardigheded {
+  text-size-adjust: 200%;
+  
+}
+
+#contactpictureslist {
+  padding-bottom: 200px;
+}
